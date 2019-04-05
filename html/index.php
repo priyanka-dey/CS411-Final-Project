@@ -26,6 +26,38 @@ Testing committing
 	$countrySql = "SELECT distinct(country) FROM WINES ORDER BY country";
 	$countryResult = mysqli_query($conn,$countrySql);
 	$countryQueryResult = mysqli_num_rows($countryResult);
+	
+	      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	$username = mysql_real_escape_string ($_POST['username']);
+	$pswd = mysql_real_escape_string($_POST['password']);
+
+	$verify_username = "SELECT count(*) as s_chk FROM USERS WHERE user_id='$username'";
+        $result = mysqli_query($conn, $verify_username);
+	$count = mysqli_fetch_assoc($result);
+
+
+	// Verify login information
+	if ($count['s_chk'] == 0) {
+	    echo "Sorry but this username doesn't exist.";
+	} else {
+	   $verify_pswd = "SELECT password as pswd2 FROM USERS WHERE user_id='$username'";
+	   $result = mysqli_query($conn, $verify_pswd);
+	   $actual_pswd = mysqli_fetch_assoc($result);
+
+	   if (strcmp($pswd, $actual_pswd['pswd2']) == 0) {
+		echo "Logged in!";
+		$_SESSION['logged_in'] = true;
+   		$_SESSION['user_name'] = $username;
+		echo $_SESSION['logged_in'];
+	header("Location: http://sp19-cs411-48.cs.illinois.edu/index.php");
+        die();
+	   }
+	   else {
+		echo "Looks like you entered the wrong password!";
+	}}
+
+	}
+	
 ?>
 
 
@@ -75,7 +107,25 @@ Testing committing
 										<a href="register.php" class="button style1" name="sign-up">Sign Up</a>
 									</div>
 									<div class="col-1">
-										<a href="login.php" class="button style2" name="log-in">Log In</a>
+										<button onclick="log-in" class="button style1">Login</button>
+										<!-- Modal -->
+										<div id="log-in" class="modal">
+											<form method = "post" action = "login.php">
+												<table>
+													<tr>
+													    <td>Username:</td>
+													    <td><input type="text" name="username"></td>
+													</tr>
+													<tr>
+													    <td>Password Again:</td>
+													    <td><input type="password" name="password"></td>
+													</tr>
+													<tr>
+														<td><input type="submit" name="login_btn" value="Login">
+													</tr>
+												</table>
+											</form>
+										</div>
 									</div> <?php
 							} ?>
 							</div>
