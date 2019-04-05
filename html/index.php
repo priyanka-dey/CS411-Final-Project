@@ -6,6 +6,8 @@ TODO: Fix wine_id to accept title of the wine<br>
       Maybe add a tab to the navigation bar called "My Reviews" that exists only when a user is logged in.<br>
       Fix pagination - is okay for page 1 but doesn't display anything else for other pages.<br>
 
+Testing committing
+
 <?php
 	// This file contains the Wine Snob main page
 	session_start();
