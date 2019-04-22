@@ -1,19 +1,20 @@
 # CS411-Final-Project
-
-things still needed to be fixed before the April 7th deadline:
-1. Fix the way login page and register page look (maybe make them modals instead of pages)
-2. Need to have reviews populate in the profile page: make sure to use views (advanced technique)
-3. Figure out what we are doing for the 2nd advanced feature: google maps visualization
-4. Fix the look of edit/delete part when searching
-
-Identified advanced techniques:
-1. Indexing
-2. Views (for the profile page) -> need to do
-3. Constraints
-
-Still need another 3 techniques
-
-Other things to be done:
-1. Make the recommendation engine
-2. Get the map visualization
-3. Pick and add another 3 advanced techniques
+Things to work on:
+1. Recommendation engine (currently Pri is working on this)
+2. Google maps Data Visualization (someone can start on this, we'll talk more on Wednesday)
+3. Fixing the login/signup pages (someone can do this)
+4. Adding the advanced techniques
+    a. Indexing (pri needs to add stuff here mainly on the wines table)
+    b. Stored procedure (pri already created one for reviews, need to use in rec_eng.php)
+    c. constraints (check null constraints for users table, reviews, etc. should already be done)
+    
+    Need to think of another 3 to use and where (left to choose from):
+    I.    parallel query execution
+    II.   transaction
+    III.  app. query processing
+    IV.   triggers
+    V.    partioning/sharding
+    VI.   prepared statements
+    VII.  compound statements
+    VIII. views
+5. Making reviews page (edit/delete look nicer -> last step)
