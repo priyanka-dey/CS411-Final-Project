@@ -9,12 +9,12 @@ Things to work on:
     3. constraints (check null constraints for users table, reviews, etc. should already be done)
     
     Need to think of another 3 to use and where (left to choose from):
-    I.    parallel query execution
-    II.   transaction
-    III.  app. query processing
-    IV.   triggers
-    V.    partioning/sharding
-    VI.   prepared statements
-    VII.  compound statements
-    VIII. views
+    1.    parallel query execution
+    2.   transaction
+    3.  app. query processing
+    4.   triggers
+    5.    partioning/sharding
+    6.   prepared statements
+    7.  compound statements
+    8. views
 5. Making reviews page (edit/delete look nicer -> last step)
