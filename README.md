@@ -23,3 +23,6 @@ Things to work on:
     6.  compound statements
     7. views
 5. Making reviews page (need to redirect back to the descriptions page)
+    1. delete unnecessary fields in the form i.e. price and title
+    2. redirect back to the descriptions page
+    3. make the edit and delete buttons look better
