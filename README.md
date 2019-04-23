@@ -9,16 +9,17 @@ Things to work on:
     2. register.php
 4. Adding the advanced techniques (also pri thinking)
     1. Indexing (pri needs to add stuff here mainly on the wines table)
-    2. Stored procedure (pri already created one for reviews, need to use in rec_eng.php)
-    3. constraints (check null constraints for users table, reviews, etc. should already be done)
+    2. Stored procedure (done)
+    3. Trigger (done)
+    4. constraints (check null constraints for users table, reviews, etc. should already be done)
+    5. need to work on the prepared statements (pri will do this on the search.php page)
     
     Need to think of another 3 to use and where (left to choose from):
     1.    parallel query execution
     2.   transaction
     3.  app. query processing
-    4.   triggers
-    5.    partioning/sharding
-    6.   prepared statements
-    7.  compound statements
-    8. views
-5. Making reviews page (edit/delete look nicer -> last step)
+    4.    partioning/sharding
+    5.   prepared statements
+    6.  compound statements
+    7. views
+5. Making reviews page (need to redirect back to the descriptions page)
