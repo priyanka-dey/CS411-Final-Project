@@ -8,7 +8,7 @@ Things to work on:
     1. login.php
     2. register.php
 4. Adding the advanced techniques (also pri thinking)
-    1. Indexing (pri needs to add stuff here mainly on the wines table)
+    1. Indexing (done)
     2. Stored procedure (done)
     3. Trigger (done)
     4. constraints (done)
