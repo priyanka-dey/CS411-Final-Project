@@ -11,10 +11,10 @@ Things to work on:
     1. Indexing (pri needs to add stuff here mainly on the wines table)
     2. Stored procedure (done)
     3. Trigger (done)
-    4. constraints (check null constraints for users table, reviews, etc. should already be done)
+    4. constraints (done)
     5. need to work on the prepared statements (pri will do this on the search.php page)
     
-    Need to think of another 3 to use and where (left to choose from):
+    Need to think of another (1) to use and where (left to choose from):
     1.    parallel query execution
     2.   transaction
     3.  app. query processing
