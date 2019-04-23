@@ -24,7 +24,7 @@ columns = ['review_id', 'score', 'user_id', 'wine_id']
 mycursor = wine_snob.cursor()
 mycursor.execute("SELECT review_id, score, user_id, wine_id FROM REVIEWS")
 all_reviews = mycursor.fetchall()
-reviews = pd.DataFrame(np.array(all_reviews).reshape(136,4), columns = columns)
+reviews = pd.DataFrame(np.array(all_reviews).reshape(len(all_reviews),4), columns = columns)
 reviews.score = reviews.score.astype(int)
 reviews.wine_id = reviews.wine_id.astype(int)
 
@@ -102,5 +102,3 @@ for wine in recommended_wines:
     print(wine)
 
 mycursor.close()
-
-
