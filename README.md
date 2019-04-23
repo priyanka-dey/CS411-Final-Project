@@ -1,4 +1,6 @@
 # CS411-Final-Project
+TO-DO:
+1. REMOVE reviews.php link at top of every page add href for recommendation_engine.php!!!!
 Things to work on:
 1. Recommendation engine (finished: make it look pretty):
    1. recommendation_engine.php
