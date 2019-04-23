@@ -1,8 +1,11 @@
 # CS411-Final-Project
 Things to work on:
-1. Recommendation engine (currently Pri is working on this)
+1. Recommendation engine (finished <make look pretty>):
+   1. recommendation_engine.php
 2. Google maps Data Visualization (someone can start on this, we'll talk more on Wednesday)
-3. Fixing the login/signup pages (someone can do this)
+3. Fixing the login/signup pages (someone can do this):
+    1. login.php
+    2. register.php
 4. Adding the advanced techniques
     1. Indexing (pri needs to add stuff here mainly on the wines table)
     2. Stored procedure (pri already created one for reviews, need to use in rec_eng.php)
