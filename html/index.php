@@ -82,7 +82,7 @@ TODO: Fix wine_id to accept title of the wine<br>
                                 ?>
 							<ul>
 								<li class="current"><a href="index.php">Home</a></li>
-								<li><a href="reviews.php">Write A Review</a></li>
+								<li><a href="recommendation_engine.php">Wine Recommendations</a></li>
 								<li><a href="regions.php">Explore By Region</a></li>
 							</ul> <?php
                         }
