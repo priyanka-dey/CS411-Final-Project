@@ -43,7 +43,7 @@
          <table>
             <tr>
                <td>Username:</td>
-               <td><input type="text" name="username"></td>
+               <td><input type="text" class="button style2" name="username"></td>
             </tr>
 
             <tr>
