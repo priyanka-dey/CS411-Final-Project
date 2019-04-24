@@ -1,10 +1,10 @@
 # CS411-Final-Project
 TO-DO: REMOVE reviews.php link at top of every page add href for recommendation_engine.php!!!!
 Things to work on:
-1. Recommendation engine (finished: make it look pretty):
+1. Recommendation engine (finished: make it look pretty-Amy):
    1. recommendation_engine.php
 2. Google maps Data Visualization (pri is currently thinking about this, we'll talk more on Wednesday)
-3. Fixing the login/signup pages (someone can do this):
+3. Fixing the login/signup pages (someone can do this-Keerti):
     1. login.php
     2. register.php
 4. Adding the advanced techniques (also pri thinking)
