@@ -13,9 +13,9 @@ Things to work on:
     3. make the edit and delete buttons look better
     
 Adding the advanced techniques:
-    1. Indexing (done)
-    2. Stored procedure (done)
-    3. Trigger (done)
-    4. constraints (done)
-    5. need to work on the prepared statements (PRI will do this on the search.php page)
-    6. compound statements (in the google maps API part)
+    A. Indexing (done)
+    B. Stored procedure (done)
+    C. Trigger (done)
+    D. constraints (done)
+    E. need to work on the prepared statements (PRI will do this on the search.php page)
+    F. compound statements (in the google maps API part)
