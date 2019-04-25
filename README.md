@@ -12,7 +12,7 @@ Things to work on:
     2. redirect back to the descriptions page
     3. make the edit and delete buttons look better
     
-Adding the advanced techniques:::
+Adding the advanced techniques:
     1. Indexing (done)
     2. Stored procedure (done)
     3. Trigger (done)
