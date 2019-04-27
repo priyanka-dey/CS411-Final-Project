@@ -4,7 +4,7 @@ Things to work on:
 1. Recommendation engine (finished: make it look pretty):
    1. recommendation_engine.php
 2. Google maps Data Visualization (PRI is currently working on this)
-3. Fixing the login/signup pages (someone can do this): KEERTI
+3. Fixing the login/signup pages (someone can do this): KEERTI - done
     1. login.php
     2. register.php
 4. Making reviews page (need to redirect back to the descriptions page): AUGUSTO
