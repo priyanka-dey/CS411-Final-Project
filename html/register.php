@@ -30,44 +30,62 @@
       }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register, login, and logout user php mysql</title>
+  <title>Register</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+ 
+  <body>
 
-<h2>Wine Snob Registration Page</h2>
-	<!-- this is a post method because we need data from the client side: they are entering the username and password -->
-      <form method = "post" action = "register.php">
-         <table>
-            <tr>
-               <td>Username:</td>
-               <td><input type="text" class="button style2" name="username"></td>
-            </tr>
+    <!-- Main -->
+    <section id="main" class="wrapper style4">
+      <div class="container">
+        <div class="row aln-center">
+          <div class="col-4 col-12-medium">
+            <div id="content"> 
+              <section class="box">
+                <header>
+                  <center><h2>Wine Snob Registration Page</h2></center>
+                </header>
+                <form action="login" method="POST">
+                  <div class="row gtr-50">
 
-            <tr>
-               <td>Password:</td>
-               <td><input type="password" name ="password"></td>
-            </tr>
+                    <!-- LOGIN  -->
+                    <div class="col-12">
+                      <input type="text" name="username" placeholder="User Name"/>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" name="password" placeholder="Password"/>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" name="password2" placeholder="Password Again"/>
+                    </div>
+                    <div class="col-12">
+                      <input type="number" name="age" placeholder="Age > 21"/>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" name="name" placeholder="Name"/>
+                    </div>
+            
 
-            <tr>
-               <td>Age:</td>
-               <td><input type="number" name="age"></td>
-            </tr>
-            <tr>
-               <td>Name:</td>
-               <td><input type="text" name="name"></td>
-            </tr>
+                    <!-- Submit Button -->
+                    <div class="col-12">
+                      <center><button type="submit" class="button style1" name="register_btn">Register</button></center>
+                    </div>
+                  </div>
+                </form>
+              </section>
 
-            <tr>
-               <td>
-                  <input type="submit" name="register_btn" value="Register">
-               </td>
-            </tr>
-         </table>
-      </form>
+            </div>
 
-
-</body>
-</html>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
