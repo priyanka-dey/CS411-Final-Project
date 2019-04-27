@@ -42,25 +42,51 @@
 <html>
 <head>
 	<title>Login</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+ 
+	<body class="no-sidebar">
 
-<h2>Login Page</h2>
-	<!-- this is a post method because we need data from the client side: they are entering the username and password -->
-      <form method = "post" action = "login.php">
-         <table>
-            <tr>
-               <td>Username:</td>
-               <td><input type="text" name="username"></td>
-            </tr>
-            <tr>
-               <td>Password Again:</td>
-               <td><input type="password" name="password"></td>
-            </tr>
-	    <tr>
-		<td><input type="submit" name="login_btn" value="Login">
-	    </tr>
-         </table>
-      </form>
-</body>
-</html>
+		<!-- Main -->
+		<div id="main" class="wrapper style2">
+			<div class="container">
+				<div class="row aln-center">
+					<div class="col-4 col-12-medium">
+						<div id="content"> 
+							
+								<article class="box post">
+								<header>
+									<center><h2>Login</h2></center>
+								</header>
+
+								<form action="login" method="POST">
+									<div class="row gtr-50">
+
+										<!-- LOGIN  -->
+										<div class="col-12">
+											<input type="text" name="username" placeholder="User Name"/>
+										</div>
+										<div class="col-12">
+											<input type="text" name="password" placeholder="Password"/>
+										</div>
+						
+
+										<!-- Submit Button -->
+										<div class="col-12">
+											<center><button type="submit" class="button style1" name="login-btn">Login</button></center>
+										</div>
+									</div>
+								</form>
+							</article>
+
+						</div>
+
+					</div>
+				</center>
+				
+			</div>
+		</div>
+	</body>
+	</html>
